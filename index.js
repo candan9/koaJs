@@ -11,7 +11,7 @@ app.use((ctx) => {
     ctx.body = "<h1>Hakkımızda sayfasına hoş geldiniz </h1>";
   } else if (url === "/iletisim") {
     ctx.body = "<h1>İletişim sayfasına hoş geldiniz </h1>";
-  } else {
+  } else { 
     ctx.body = "<h1>404 sayfa bulunamadı. </h1>";
   }
 });
